@@ -1,0 +1,153 @@
+/* Clubs Section */
+.clubs-sec{
+    padding:2rem 0rem 0rem 3rem;
+    /* border:2px solid blue; */
+    width:100%;
+    height:90vh;
+    /* background-color:rgb(255,6,82);; */
+    background-color:white;
+    display:flex;
+    justify-content:space-evenly;
+}
+.clubs-sec h2{
+    color:black;
+    font-size:2rem;
+    padding-top:15rem;
+}
+.facilities{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:white;
+    /* margin:2rem 2rem 9rem 2rem; */
+    width:50%;
+    margin:3rem;
+} 
+.left{
+    margin:2rem;
+}
+.right{
+    margin:2rem;
+}
+.facilities li{
+    list-style-type:none;
+}
+.facilities img{
+    width:3rem;
+    height:3rem;
+    justify-items:left;
+}
+/* Membership Offer */
+.membership{
+    width:50%;
+    height:100vh;
+    /* margin:1rem 0rem 0rem 2rem; */
+    margin-top:-4rem;
+}
+.offer{
+    background-color:lightgrey;
+    margin:2rem 2rem 2rem 2rem;
+}
+.offer h2{
+    margin-left:2rem;
+    /* margin:rem 0rem 0rem 2rem; */
+    padding-top:2rem;
+}
+form input,select{
+    width:80%;
+    height:2rem;
+    padding-left:2rem;
+}
+form input[type=checkbox]{
+    width:3%;
+    height:2rem;
+    /* padding:1rem 0rem 0rem 1rem; */
+    /* margin:1rem; */
+    font-size:0.rem;
+}
+form button{
+    background-color:red;
+    color:white;
+    width:70%;
+    height:3rem;
+    /* margin-left:3rem; */
+    margin:0rem 0rem 2rem 3rem;
+}
+.imp{
+    /* margin-left:3rem; */
+    margin:3rem 0rem 3rem 3rem;
+}
+.se{
+    text-align:center;
+    text-decoration:none;
+    /* padding-left:10rem; */
+    padding:0rem 0rem 0rem 10rem;
+    color:brown;
+    /* margin-bottom:-9rem; */
+    /* margin-top:-9rem; */
+}
+/* Contact Section */
+.contact-sec{
+    width:100%;
+    height:50vh;
+    display:flex;
+    justify-content:space-evenly;
+}
+.lt{
+    background-color:black;
+    width:50%;
+    height:80vh;
+    /* border:2px solid red; */
+}
+.lt h2{
+    color:white;
+    padding-top:4rem;
+    font-size:4rem;
+    padding-left:2rem;
+}
+ .lt hr{
+    /* height:3rem; */
+    width:14rem;
+    margin-left:3rem;
+    color:red;
+} 
+.rt{
+    background-color:grey;
+    width:50%;
+    height:80vh;
+}
+.form{
+    padding:3rem 0rem 0rem 3rem;
+    /* border:2px solid red; */
+}
+.form input{
+    width:30rem;
+    height:3rem;
+}
+.form button{
+    background-color:red;
+    color:white;
+    width:8rem;
+    /* padding-bottom:2rem; */
+    /* padding-right:10rem; */
+    /* margin-right:30rem; */
+}
+/* Right Section */
+.rt-sec{
+    display:flex;
+    justify-content:center;
+    /* width:10%; */
+    /* height:10vh; */
+    padding:6rem 3rem -2rem 1rem;
+    margin-top:3rem;
+    margin-right:-7rem;
+    margin-left:-20rem;
+    /* border:2px solid blue; */
+}
+.address{
+    background-color:white;
+    padding:3rem 3rem 7.4rem 3rem;
+}
+.map img{
+    width:100%;
+    height:70vh;
+}

@@ -1,0 +1,26 @@
+/* Background images */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.image{
+    width:100%;
+    height:100vh;
+    background-blend-mode:darken;
+    animation:animate infinite 7s; 
+}
+@keyframes animate{
+    0%{
+        background:rgba(0,0,0,0.7) url(/images/gym-1600x900.jpg);
+        background-size: cover;
+    }
+    50%{
+        background:rgba(0,0,0,0.7) url(/images/equipments-gym.jpg);
+        background-size:cover;
+    }
+    100%{
+        background:rgba(0,0,0,0.7) url(/images/Banner-pic-2.jpg);
+        background-size: cover;
+    }
+}
